@@ -7,37 +7,45 @@ Ce projet est un framework PHP simple pour la gestion de la structure MVC (Model
 ## Structure du projet
 
 ```plaintext
-├── public/                    # Contient les fichiers accessibles publiquement
-│   ├── css/                   # Fichiers CSS
-│   │   └── style.css          # Exemple de fichier CSS
-│   ├── font/                  # Polices utilisées
-│   ├── js/                    # Fichiers JavaScript
-│   ├── media/                 # Médias (images, vidéos, GIF)
-│   │   ├── gif/               # GIFs
-│   │   ├── img/               # Images
-│   │   └── video/             # Vidéos
-│   └── vues/                  # Vues (HTML/PHP)
-│       ├── form/              # Formulaires (Connexion, Inscription)
-│       │   ├── connexion.php
-│       │   └── inscription.php
-│       ├── navigation/        # Navigation (Header, Footer, Navbar)
-│       │   ├── accueil.php
-│       │   └── contact.php
-│       └── template/          # Templates communs (Header, Footer, Navbar)
-│           ├── footer.php
-│           ├── header.php
-│           └── navbar.php
-├── src/                       # Contient la logique métier (MVC)
-│   ├── control/               # Contrôleurs
-│   │   ├── Autoload.php       # Auto-chargement des classes
-│   │   ├── ControlForm.php    # Contrôleur des formulaires
-│   │   ├── ControlMain.php    # Contrôleur principal
-│   │   └── ControlRooter.php  # Contrôleur de gestion des routes
-│   └── model/                 # Modèles pour interagir avec la base de données
-│       ├── Base.php           # Base pour la connexion à la base de données
-│       └── ModelUser.php      # Modèle pour la gestion des utilisateurs
-├── .gitignore                 # Fichiers à ignorer par Git
-└── README.md                  # Ce fichier
+|   index.php                  # Point d'entrée de l'application (à la racine)
+|
++---public                      # Contient les fichiers accessibles publiquement
+|   +---css                     # Fichiers CSS
+|   |       style.css           # Exemple de fichier CSS
+|   |
+|   +---font                    # Polices utilisées
+|   +---js                      # Fichiers JavaScript
+|   +---media                   # Médias (images, vidéos, GIF)
+|   |   +---gif                 # GIFs
+|   |   +---img                 # Images
+|   |   \---video               # Vidéos
+|   \---vues                    # Vues (HTML/PHP)
+|       +---form                # Formulaires (Connexion, Inscription)
+|       |       connexion.php   # Formulaire de connexion
+|       |       inscription.php # Formulaire d'inscription
+|       |
+|       +---navigation          # Navigation (Header, Footer, Navbar)
+|       |       accueil.php     # Page d'accueil
+|       |       contact.php     # Page de contact
+|       |
+|       \---template            # Templates communs (Header, Footer, Navbar)
+|               footer.php     # Footer de l'application
+|               header.php     # Header de l'application
+|               navbar.php     # Navbar de l'application
+|
+\---src                         # Contient la logique métier (MVC)
+    +---control                 # Contrôleurs
+    |       Autoload.php        # Auto-chargement des classes
+    |       ControlForm.php     # Contrôleur des formulaires
+    |       ControlMain.php     # Contrôleur principal
+    |       ControlRooter.php   # Contrôleur de gestion des routes
+    |
+    \---model                   # Modèles pour interagir avec la base de données
+            Base.php           # Base pour la connexion à la base de données
+            ModelUser.php      # Modèle pour la gestion des utilisateurs
+|
+.gitignore                     # Fichiers à ignorer par Git
+README.md                      # Documentation de ton projet                 # Ce fichier
 ```
 
 # Framework Template
