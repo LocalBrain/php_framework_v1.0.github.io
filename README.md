@@ -38,7 +38,7 @@ Ce projet est un framework PHP simple pour la gestion de la structure MVC (Model
 │       └── ModelUser.php      # Modèle pour la gestion des utilisateurs
 ├── .gitignore                 # Fichiers à ignorer par Git
 └── README.md                  # Ce fichier
-
+```
 
 # Framework Template
 
