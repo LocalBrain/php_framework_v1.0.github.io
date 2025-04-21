@@ -76,5 +76,6 @@ Avant de commencer, assurez-vous d'avoir les éléments suivants installés sur 
 Clonez ce dépôt ou téléchargez-le sous forme de fichier ZIP et extrayez-le dans votre répertoire de projet.
 
 ```bash
-git clone https://github.com/php_framework_v1.0.github.io
+git clone https://github.com/WebSiteMaker24/php_framework_v1.0.github.io.git
+
 cd php_framework_v1.0
