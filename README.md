@@ -1,22 +1,14 @@
 WebSiteMaker | websitemaker.fr 
 
-TEMPLATE_BASE/
-├── public/
-│   ├── css/                  # Fichiers CSS
-│   ├── js/                   # Fichiers JavaScript
-│   ├── vues/                 # Vues (HTML/PHP)
-│   │   ├── navigation/       # Navigation (Header, Footer, Navbar)
-│   │   ├── form/             # Formulaires (Connexion, Inscription)
-│   └── index.php             # Point d'entrée du projet
-├── src/
-│   ├── control/              # Contrôleurs
-│   │   ├── ControlMain.php   # Contrôleur principal
-│   │   ├── ControlUser.php   # Contrôleur pour la gestion des utilisateurs
-│   └── model/                # Modèles
-│       ├── Base.php          # Base pour la connexion à la base de données
-│       ├── ModelUser.php     # Modèle pour la gestion des utilisateurs
-├── .gitignore                # Fichiers à ignorer par Git
-└── README.md                 # Documentation du projet
+# Framework PHP Version 1.0
+
+Ce projet est un framework PHP simple pour la gestion de la structure MVC (Model-View-Controller). Il est conçu pour être léger, facile à personnaliser et à utiliser dans tous vos projets PHP.
+
+## Structure du projet
+
+Voici la structure du projet :
+
+TEMPLATE_BASE/ ├── public/ │ ├── css/ # Fichiers CSS │ ├── js/ # Fichiers JavaScript │ ├── vues/ # Vues (HTML/PHP) │ │ ├── navigation/ # Navigation (Header, Footer, Navbar) │ │ ├── form/ # Formulaires (Connexion, Inscription) │ └── index.php # Point d'entrée du projet ├── src/ │ ├── control/ # Contrôleurs │ │ ├── ControlMain.php # Contrôleur principal │ │ ├── ControlUser.php # Contrôleur pour la gestion des utilisateurs │ └── model/ # Modèles │ ├── Base.php # Base pour la connexion à la base de données │ ├── ModelUser.php # Modèle pour la gestion des utilisateurs ├── .gitignore # Fichiers à ignorer par Git └── README.md # Ce fichier
 
 # Framework Template
 
