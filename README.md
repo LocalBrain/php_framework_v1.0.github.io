@@ -6,7 +6,7 @@ Ce projet est un framework PHP simple pour la gestion de la structure MVC (Model
 
 ## Structure du projet
 
-TEMPLATE_BASE/
+```plaintext
 ├── public/                    # Contient les fichiers accessibles publiquement
 │   ├── css/                   # Fichiers CSS
 │   │   └── style.css          # Exemple de fichier CSS
@@ -38,7 +38,6 @@ TEMPLATE_BASE/
 │       └── ModelUser.php      # Modèle pour la gestion des utilisateurs
 ├── .gitignore                 # Fichiers à ignorer par Git
 └── README.md                  # Ce fichier
-
 
 
 # Framework Template
