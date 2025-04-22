@@ -4,7 +4,7 @@ WebSiteMaker | websitemaker.fr
 
 Ce projet est un framework PHP simple pour la gestion de la structure MVC (Model-View-Controller). Il est conçu pour être léger, facile à personnaliser et à utiliser dans tous vos projets PHP.
 
-## Structure du projet
+## Structure du projet (ajouter le fichier config.php avec les constante mots de passe en dehors de la section public du serveur)
 
 ```plaintext
 |   index.php                  # Point d'entrée de l'application (à la racine)
