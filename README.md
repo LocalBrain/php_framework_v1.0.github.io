@@ -1,6 +1,6 @@
 WebSiteMaker | websitemaker.fr 
 
-# Framework PHP Version 1.0
+# Framework PHP Version 1.0 (PepinPHP version 1.0)
 
 Ce projet est un framework PHP simple pour la gestion de la structure MVC (Model-View-Controller). Il est conçu pour être léger, facile à personnaliser et à utiliser dans tous vos projets PHP.
 
